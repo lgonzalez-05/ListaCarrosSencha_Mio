@@ -1,0 +1,92 @@
+{
+    "type": "Ext.container.Viewport",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|regionWeights": [
+            "{\"north\":30,\"south\":30,\"center\":0,\"west\":30,\"east\":30}"
+        ],
+        "designer|initialView": true,
+        "designer|userClassName": "MyViewport",
+        "layout": "border"
+    },
+    "designerId": "8192a377-f99b-4f59-85b7-fe85bf29565e",
+    "cn": [
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|region": "center"
+            },
+            "designerId": "f47c4f8a-8ec1-4cc5-aef8-bd88aeade25a",
+            "masterInstanceId": "ce64cf58-eeb1-44cc-ba90-2b7e811d64a0"
+        },
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "id": "PanelRegionEste",
+                "layout|region": "west",
+                "title": null,
+                "width": 50
+            },
+            "designerId": "3b23eb09-b58d-45b0-a97f-e8358c6712d2"
+        },
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "id": "PanelRegionOeste",
+                "layout|region": "east",
+                "title": null,
+                "width": 50
+            },
+            "designerId": "63fec573-f565-4ff9-9d0a-6898c55be768"
+        },
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "height": 50,
+                "id": "PanelRegionNorte",
+                "layout|region": "north",
+                "title": null
+            },
+            "designerId": "f63e6f1f-4e90-4809-90f8-3cc04087594f"
+        },
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "height": 50,
+                "id": "PanelRegionSur",
+                "layout|region": "south",
+                "title": null
+            },
+            "designerId": "8df3738c-0414-4d85-9862-0c4a3e7a7233"
+        }
+    ]
+}
